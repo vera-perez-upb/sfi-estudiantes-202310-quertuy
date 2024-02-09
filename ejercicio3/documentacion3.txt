@@ -1,0 +1,43 @@
+Ejercicio 3: ¿Cómo puedes programar el microcontrolador?
+
+En este ejercicio empezamos con una introduccion de lo que se necesita para programar el microcpntrolador y los implementos necesarios 
+
+- Un editor de código de C++, por ejemplo arduino IDE.
+- Varios programas que permitan transformar el código de C++ a instrucciones de máquina (compilador).
+- Almacenar las instrucciones de máquina en la memoria flash del microcontrolador.
+
+y un a guia de como instalar el editor de codigo y confirgurarlo para poner programar el microcontrolador
+
+luego de instalar el edirot y configurarlo es cuando vamos a hacer la primera linea de codigo para configurar el microcontrolador
+
+void setup() {
+  // Configura el pin del LED incorporado como salida
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  // Variables estáticas para almacenar el tiempo anterior y el estado del LED
+  static uint32_t previousTime = 0;
+  static bool ledState = true;
+
+  // Lee el tiempo actual en milisegundos
+  uint32_t currentTime = millis();
+
+  // Comprueba si ha pasado un intervalo de 100 ms
+  if( (currentTime - previousTime) > 300){
+    // Actualiza el tiempo anterior con el tiempo actual
+    previousTime = currentTime;
+    // Invierte el estado del LED
+    ledState = !ledState;
+    // Escribe el estado del LED en el pin LED_BUILTIN
+    digitalWrite(LED_BUILTIN, ledState);
+  }
+}
+
+Por último se presiona el ícono Subir dentro del editor de codigo (arduino), el segundo ubicado en la esquina superior izquierda. Al hacer esto ocurrirán varias cosas:
+
+- Se transformará el programa de código C++ a lenguaje de máquina.
+- Se enviará el código de máquina del computador a la memoria flash del raspberry pi a través del puerto serial que el sistema operativo le asignó a la tarjeta.
+
+Una vez conectada la placa de raspberri por usb, se podra ver al LED ubicado al lado del conectar USB enciendo y apagando muy rápido.
+
