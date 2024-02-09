@@ -12,7 +12,7 @@ void loop() {
   uint32_t currentTime = millis();
 
   // Comprueba si ha pasado un intervalo de 100 ms
-  if( (currentTime - previousTime) > 100){
+  if( (currentTime - previousTime) > 300){
     // Actualiza el tiempo anterior con el tiempo actual
     previousTime = currentTime;
     // Invierte el estado del LED
