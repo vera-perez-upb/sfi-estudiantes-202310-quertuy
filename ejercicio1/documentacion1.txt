@@ -1,0 +1,43 @@
+Ejercicio 1: Introducción
+
+En este ejercicio introductorio del curso, se plantea la construcción de aplicaciones interactivas que integren y envíen información desde y hacia el mundo exterior. Se proporciona un ejemplo concreto de un proyecto de grado realizado por estudiantes del programa, el cual sirve como referencia para comprender los objetivos y el alcance del curso.
+
+Resumen del Proyecto de Grado
+El proyecto de grado consiste en una aplicación interactiva que varía visuales y audio en tiempo real utilizando la información de movimiento capturada de una bailarina. La aplicación se divide en cuatro partes principales:
+
+Aplicación Interactiva: Corre en un computador y se encarga de proyectar visuales y controlar el software de audio.
+
+Visuales: Se proyectan en una pantalla y son controladas por la aplicación interactiva.
+
+Software de Audio: Controlado por la aplicación interactiva, proporciona la parte auditiva de la experiencia.
+
+Captura de Movimiento: Se realiza mediante dispositivos llevados por la bailarina, que incluyen un sensor de movimiento, un microcontrolador para procesar la información del sensor y un radio de comunicación inalámbrica para transmitir la información.
+
+Elementos de los Dispositivos de Captura de Movimiento
+Los dispositivos de captura de movimiento utilizados por la bailarina constan de:
+
+Sensor de Movimiento: Detecta y mide los movimientos corporales de la bailarina.
+
+Microcontrolador o Computador Embebido: Procesa la información del sensor y la transmite mediante un protocolo de comunicación.
+
+Radio de Comunicación Inalámbrica: Transmite la información del movimiento al computador que ejecuta la aplicación interactiva.
+
+Protocolo de Comunicación
+La comunicación entre los dispositivos de captura de movimiento y la aplicación interactiva se realiza mediante un protocolo de comunicación. Este protocolo es un acuerdo establecido entre las partes involucradas para garantizar la comprensión mutua y la transmisión eficiente de la información.
+
+Objetivos del Curso
+El curso se enfoca en:
+
+Programación de microcontroladores similares a los utilizados en los dispositivos de captura de movimiento.
+
+Experimentación con dos tipos de protocolos de comunicación en las unidades 2 y 3.
+
+Construcción de una aplicación simple que integre todos los elementos aprendidos en las unidades previas en la unidad 4.
+
+Importancia y Alcance de los Ejercicios
+Aunque las aplicaciones desarrolladas en el curso son simples, contienen todos los elementos necesarios para comprender el funcionamiento de aplicaciones más complejas, como la presentada en el proyecto de grado. Los ejercicios se realizan en un repositorio específico, proporcionando una plataforma para el desarrollo práctico y la documentación del progreso.
+
+Continuación del Aprendizaje
+El curso menciona la posibilidad de continuar profundizando en el tema mediante otro curso disponible en el programa: "Sistemas Físicos Interactivos 2". Este curso permite construir aplicaciones más avanzadas utilizando los conceptos aprendidos en "Sistemas Físicos Interactivos 1", ofreciendo una oportunidad para explorar proyectos más complejos y aplicar conocimientos adicionales.
+
+Esta documentación resalta los aspectos clave del ejercicio introductorio, proporcionando una visión general del curso y su estructura, así como la importancia del proyecto de grado presentado como ejemplo.
