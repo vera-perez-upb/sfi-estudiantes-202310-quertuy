@@ -1,0 +1,3 @@
+Ejercicio 4: retrieval practice (evaluación formativa)
+
+En este ejercicio es una evaluacion formativa donde hay que hacer grupos y modificar cierta parte del codigo para probar o verificar lo aprendido en clase, en este caso, es que el tiempo en el que el led parpadea no sea de 500 sino de 1000, lo cual hara que tarde mas en parpadear  ya que a medida que se aumenta la frecuencia mas tardara el led en parpadear hasta un punto en el que parecera que solo se enciende y apaga solo.
