@@ -1,0 +1,3 @@
+La función millis() en Arduino devuelve el tiempo transcurrido desde que la placa Arduino se inició o se reinició, en milisegundos. Esta función es útil para medir el tiempo y para implementar temporizadores o controlar el intervalo entre eventos.
+
+Por ejemplo, en el código proporcionado, la función millis() se utiliza para calcular el tiempo transcurrido desde la última ejecución de la tarea task1. Al comparar este tiempo con el intervalo definido en la constante INTERVAL, el código puede determinar si ha pasado el tiempo suficiente para ejecutar nuevamente la tarea. Esto permite que la tarea se ejecute periódicamente en un intervalo de tiempo específico.
