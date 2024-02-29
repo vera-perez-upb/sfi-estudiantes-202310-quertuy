@@ -1,0 +1,17 @@
+Ejercicio 14: Retrieval Practice (Evaluación Formativa)
+Objetivo del Programa:
+El programa intercambia el valor de dos variables utilizando una función.
+Preguntas para Reflexionar:
+¿Cómo se puede intercambiar el valor de dos variables en C++ sin usar punteros?
+
+Se pueden intercambiar el valor de dos variables en C++ sin usar punteros mediante el uso de una variable temporal. Por ejemplo:
+cpp
+Copy code
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+¿Por qué es útil utilizar punteros para intercambiar el valor de dos variables?
+
+Utilizar punteros para intercambiar el valor de dos variables permite realizar el intercambio sin necesidad de utilizar una variable temporal, lo que puede ser útil en situaciones donde se desea minimizar el uso de memoria o se requiere una implementación más eficiente.
