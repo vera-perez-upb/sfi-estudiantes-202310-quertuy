@@ -1,0 +1,14 @@
+Ejercicio 15: Punteros y Arreglos
+Funcionamiento del Programa:
+La función processData toma un arreglo de bytes, su tamaño y un puntero a un byte como argumentos. Luego, calcula la suma de los valores de los bytes en el arreglo y almacena el resultado en la dirección apuntada por el puntero.
+La función task1 inicializa el puerto serial y espera a recibir cinco bytes. Cuando se reciben los cinco bytes, llama a processData para procesar los datos y luego imprime el resultado en el monitor serial.
+Preguntas para Reflexionar:
+¿Por qué es necesario declarar rxData como static?
+
+rxData se declara como static para que mantenga su valor entre las llamadas a la función task1. Si no fuera estático, se perdería su valor cada vez que la función se llamara.
+¿Por qué se declara dataCounter como static y se inicializa en 0?
+
+dataCounter se declara como static para que mantenga su valor entre las llamadas a la función task1, al igual que rxData. Se inicializa en 0 para comenzar el conteo desde cero cada vez que se llama a la función.
+¿Por qué se resta 0x30 en la expresión sum = sum + (pData[i] - 0x30); en processData?
+
+Se resta 0x30 para convertir el valor ASCII de los dígitos numéricos en sus valores correspondientes. Por ejemplo, el carácter '0' tiene el valor ASCII de 48, pero el valor numérico real es 0, por lo que al restar 0x30 se obtiene el valor correcto.
