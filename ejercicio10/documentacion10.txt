@@ -1,0 +1,15 @@
+ Ejercicio 10: Monitor Serial
+Configuración de ScriptCommunicator:
+Descarga e instala ScriptCommunicator.
+Abre el programa ScriptCommunicator.exe.
+Ve a Settings > Serial port.
+Selecciona el puerto asignado por el sistema operativo y el BaudRate a 115200.
+En la pestaña Console Options, marca las opciones: utf8, receive, hex, mixed.
+En New Line at Byte, elige None. En Send on Enter Key, selecciona None.
+En la sección General de la pestaña Serial Port, selecciona serial port como la interfaz actual.
+Cierra la ventana de configuración.
+Uso de ScriptCommunicator:
+Conecta tu sistema de desarrollo al ordenador.
+Haz clic en "Connect" en ScriptCommunicator para conectar al microcontrolador.
+Para desconectar, haz clic en "Disconnect".
+No ejecutes ScriptCommunicator mientras programas el dispositivo.
