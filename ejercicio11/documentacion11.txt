@@ -1,0 +1,15 @@
+Ejercicio 11: Realiza Algunas Pruebas
+Utiliza el programa proporcionado.
+Abre ScriptCommunicator.
+Haz clic en "Connect".
+Selecciona la pestaña Mixed.
+Escribe una letra en la caja de texto debajo de "send" y selecciona utf8.
+Haz clic en "send".
+Deberías recibir el mensaje "Hola computador".
+El valor 0a al final del mensaje corresponde a la letra "n" en la tabla ASCII.
+Preguntas para reflexionar:
+¿Por qué se envió la letra con el botón send?
+¿Qué evento verifica si ha llegado algo por el puerto serial?
+Analiza la tabla ASCII y el valor 0a.
+¿Cuál es la relación entre las letras y los números en la tabla ASCII?
+¿Qué representa el 0a al final del mensaje?
